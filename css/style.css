@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+main {
+    font-family: sans-serif;
+    background-color: #083B4C;
+}
+
+h1 {
+    padding-top: 50px;
+    
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+#griglia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    padding: 50px 500px 200px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 130px;
+    height: 130px;
+
+    font-size: 30px;
+    border: 1px solid;
+}
